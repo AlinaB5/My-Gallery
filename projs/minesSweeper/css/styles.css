@@ -1,0 +1,278 @@
+body {
+    background-color: rgb(222, 236, 235);
+    background-image: url('../images/white-board-on-beige-surface-1089842.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    color: #686262;
+    margin-top: 100px;
+}
+
+.topHeading {
+    font-family: 'Raleway', sans-serif;
+    color: #acc9b4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 10px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-size: 45px;
+}
+
+.boardContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 10px;
+}
+
+.boardContainer td {
+    border: solid 1px black;
+    border-radius: 3px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    transition: .5s;
+    background-color: rgb(194, 214, 196);
+}
+
+td.SHOWN {
+    background-color: white;
+}
+
+td.TEMP_SHOWN {
+    background-color: white;
+}
+
+td.SAFE {
+    background-color: rgb(87, 133, 83);
+}
+
+.bestTime {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 250px;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: #ffffffbe;
+    border: 1px solid rgb(202, 230, 224);
+    border-radius: 6px;
+}
+
+.topMenu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 150px;
+    margin: auto;
+    background-color: #ffffffbe;
+    border: 1px solid rgb(202, 230, 224);
+    border-radius: 6px;
+}
+
+.numOfminesToReveal {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    margin-inline-end: 10px;
+}
+
+.restart {
+    width: 45px;
+    border: none;
+    cursor: pointer;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+}
+
+.smileyButton {
+    display: flex;
+    justify-content: center;
+    width: 30px;
+    padding: 0%;
+}
+
+.clock {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    margin-inline-start: 10px;
+}
+
+.hints_lives_manualMode {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hints {
+    width: 60px;
+    height: 20px;
+    margin-top: 10px;
+    background-color: #ffffffbe;
+    border: 1px solid rgb(202, 230, 224);
+    border-radius: 6px;
+}
+
+
+.lives {
+    width: auto;
+    min-width: 60px;
+    height: 20px;
+    margin-top: 10px;
+    background-color: #ffffffbe;
+    border: 1px solid rgb(202, 230, 224);
+    border-radius: 6px;
+}
+
+.manualMode{
+    width: 130px;
+    min-width: 60px;
+    height: 22px;
+    margin-top: 10px;
+    background-color: #ffffffbe;
+    border: 1px solid rgb(202, 230, 224);
+    border-radius: 6px;
+    color: #666666;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.divSafeClickButn{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 10px;
+}
+
+.safeClickButn {
+    box-shadow: inset 0px 1px 0px 0px #ffffff;
+    background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+    background-color: #ffffff;
+    border-radius: 6px;
+    border: 1px solid #5eaab8;
+    cursor: pointer;
+    color: #666666;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffffff;
+}
+.hint1 {
+    cursor: pointer;
+}
+
+.hint2 {
+    cursor: pointer;
+}
+
+.hint3 {
+    cursor: pointer;
+}
+
+.levelsButtons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 10px;
+}
+
+.beginnerButton {
+    box-shadow: inset 0px 1px 0px 0px #ffffff;
+    background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+    background-color: #ffffff;
+    border-radius: 6px;
+    border: 1px solid #5eaab8;
+    display: inline-block;
+    cursor: pointer;
+    color: #666666;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffffff;
+}
+
+.beginnerButton :hover {
+    background: linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+    background-color: #f6f6f6;
+}
+
+.beginnerButton :active {
+    position: relative;
+    top: 1px;
+}
+
+.mediumButton {
+    box-shadow: inset 0px 1px 0px 0px #ffffff;
+    background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+    background-color: #ffffff;
+    border-radius: 6px;
+    border: 1px solid #5eaab8;
+    display: inline-block;
+    cursor: pointer;
+    color: #666666;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffffff;
+}
+
+.mediumButton :hover {
+    background: linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+    background-color: #f6f6f6;
+}
+
+.mediumButton :active {
+    position: relative;
+    top: 1px;
+}
+
+.expertButton {
+    box-shadow: inset 0px 1px 0px 0px #ffffff;
+    background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+    background-color: #ffffff;
+    border-radius: 6px;
+    border: 1px solid #5eaab8;
+    display: inline-block;
+    cursor: pointer;
+    color: #666666;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffffff;
+}
+
+.expertButton :hover {
+    background: linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+    background-color: #f6f6f6;
+}
+
+.expertButton :active {
+    position: relative;
+    top: 1px;
+}
+
+.hidden{
+    display: none; 
+}

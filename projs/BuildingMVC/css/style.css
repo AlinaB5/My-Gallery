@@ -1,0 +1,103 @@
+.login {
+    background-image: url("../image/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.login-container {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.login-form {
+    padding: 5%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(231, 231, 229, 0.651);
+}
+
+.login-form h3 {
+    text-align: center;
+    color: #333;
+}
+
+.form {
+    padding: 10%;
+}
+
+.form-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.btnSubmit {
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    font-weight: 600;
+    color: rgb(22, 20, 20);
+    background-color: #83e0ad;
+}
+
+.secret{
+    background-image: url("../image/secret background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+.container.secret-container {
+    padding: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logout-btn {
+    width: auto;
+    border-radius: 0.7rem;
+    padding: 1.5%;
+    border: none;
+    font-weight: 600;
+    color: rgb(22, 20, 20);
+    background-color: #83e0ad;
+    margin-right:4%
+}
+
+.admin-btn {
+    width: auto;
+    border-radius: 0.7rem;
+    padding: 1.5%;
+    border: none;
+    font-weight: 600;
+    color: rgb(22, 20, 20);
+    background-color: #83e0ad;
+    display:none;
+}
+
+.logout-admin-btn {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.admin{
+    background-image: url("../image/admin background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.table-container{
+    background-color: rgba(255, 255, 255, 0.726);
+    text-align: center;
+}

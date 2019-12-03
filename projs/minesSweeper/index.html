@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mines Sweeper</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body oncontextmenu="return false;" onload="initGame()">
+    <h1 class="topHeading">Mines Sweeper</h1>
+    <div class="levelsButtons">
+        <button class="beginnerButton" onclick="initGame(4)">Beginner</button>
+        <button class="mediumButton" onclick="initGame(8)">Medium</button>
+        <button class="expertButton" onclick="initGame(12)">Expert</button>
+    </div>
+    <span class="bestTime"></span>
+    <div class="topMenu">
+        <div class="numOfminesToReveal"></div>
+        <button class="restart ui-tooltip" title="restart" onclick="initGame()"></button>
+        <div class="clock"></div>
+    </div>
+    <div class="hints_lives_manualMode">
+        <span class="lives ui-tooltip" title="your lives">
+        </span>
+        <span class="hints ui-tooltip" title="use a hint">
+        </span>
+        <button class="manualMode ui-tooltip" title="manual mode - place mines and play" onclick ="activateManualMode()">🛠️
+        </button>
+    </div>
+    <div class="divSafeClickButn">
+        <button class="safeClickButn ui-tooltip" title="shows a place without a bomb" onclick="showSafeClick()"></button>
+    </div>
+    <table class="boardContainer">
+        <tbody></tbody>
+    </table>
+    <script src="js/utils.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
+

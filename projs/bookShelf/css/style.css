@@ -1,0 +1,64 @@
+html {
+    height: 100%;
+  }
+
+body {
+    background-image: url("../images/background/background-books.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin:5%;
+}
+
+.table-container {
+    background-color: rgb(255, 255, 255);
+    border:solid rgba(160, 160, 165, 0.849);
+}
+
+.modal-content details {
+    width: 60%;
+}
+
+.details-modal {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    margin: 1%;
+}
+
+.add-book {
+    width: 70%;
+}
+
+.input-group-text {
+    background-color: rgb(157, 166, 173);
+    color: white
+}
+
+.rate-buttons {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+}
+
+.btn-number {
+    min-width: 37px;
+}
+
+.modal-rate {
+    margin: 10%;
+}
+
+th {
+    text-align: center;
+}
+
+.books-table {
+    text-align: center;
+}
+
