@@ -4,7 +4,7 @@ function saveToStorage(key, value) {
     localStorage.setItem(key, str);
 }
 
-function loadFromStorage(key , defaultValue) {
+function loadFromStorage(key, defaultValue) {
     var str = localStorage.getItem(key);
-    return str?  JSON.parse(str) : defaultValue
+    return str ? JSON.parse(str) : defaultValue
 }
